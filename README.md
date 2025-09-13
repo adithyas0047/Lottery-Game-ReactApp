@@ -13,7 +13,7 @@ The game randomly generates 3 numbers, and if their sum equals to 15, you win �
 - 😢 Displays "Sorry, you lost!" otherwise
 - 🖥️ Built with ReactJS + Vite for fast development
 
-## Project Structure
+## 📂 Project Structure
 
 ```pgsql
 lottery-game/
@@ -54,7 +54,7 @@ npm run dev
 
 Now open http://localhost:5173 in your browser.
 
-## How to play
+## 🎮 How to play
 
 1. Open the app in your browser
 2. Click “Buy New Ticket”
