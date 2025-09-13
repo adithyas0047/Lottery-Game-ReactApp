@@ -1,12 +1,71 @@
-# React + Vite
+# Lottery Game (ReactJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple lottery game built with ReactJS.
+The game randomly generates 3 numbers, and if their sum equals to 15, you win 🎉
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎲 Randomly generates 3 numbers every time you buy a ticket
+- 🏆 Winning condition: sum of numbers = 15
+- 🎉 Displays `"Congrats, you won the lottery!"` if you win
+- 😢 Displays "Sorry, you lost!" otherwise
+- 🖥️ Built with ReactJS + Vite for fast development
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```pgsql
+lottery-game/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── Lottery.jsx
+│   ├── Ticket.jsx
+│   ├── helper.js
+│   ├── App.css
+│   ├── Lottery.css
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/your-username/lottery-game.git
+cd lottery-game
+```
+
+2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+3️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+Now open http://localhost:5173 in your browser.
+
+## How to play
+
+1. Open the app in your browser
+2. Click “Buy New Ticket”
+3. Watch the 3 numbers appear
+4. If their sum = 15, you win 🎉,
+   Otherwise, better luck next time!
+
+## 🛠️ Built With
+
+- [ReactJS](https://react.dev/) : UI library
+- [Vite](https://vite.dev/) : Fast build tool
+- [JavaScript(ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## 📸 Demo Screenshot
+
+![Screeshot](lottery-game-two\src\image.png)
