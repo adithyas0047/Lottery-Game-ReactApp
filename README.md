@@ -3,6 +3,8 @@
 A simple lottery game built with ReactJS.
 The game randomly generates 3 numbers, and if their sum equals to 15, you win 🎉
 
+🌐 **Live Demo:** 👉 [Play the Lottery Game on Netlify](https://lottery-game-reactapp.netlify.app/) 🎲
+
 ## ✨ Features
 
 - 🎲 Randomly generates 3 numbers every time you buy a ticket
