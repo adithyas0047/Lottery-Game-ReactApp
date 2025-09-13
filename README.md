@@ -68,4 +68,4 @@ Now open http://localhost:5173 in your browser.
 
 ## 📸 Demo Screenshot
 
-![Screenshot](lottery-game-two/src/image.png)
+![Screenshot](src/assets/image.png)
